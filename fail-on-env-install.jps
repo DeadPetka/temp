@@ -1,0 +1,7 @@
+jpsType: update
+name: fail-on-env-install
+
+onInstall:
+  script: |
+    nodeGroup = ${this.nodeGroup}
+    return {result:0}
